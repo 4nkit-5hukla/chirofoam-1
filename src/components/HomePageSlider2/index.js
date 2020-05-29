@@ -12,7 +12,7 @@ import ReactHtmlParser from 'react-html-parser'
 import {useStaticQuery, Link, graphql } from 'gatsby'
 import '~/assets/css/bootstrap.min.css'
 import '~/assets/css/animate.css'
-import run from '~/assets/img/only-man.webp'
+import run from '~/assets/img/only-man.png'
 
 const items = [
   {

@@ -7,7 +7,7 @@ import Footer from '../components/footer'
 import Banner from '../components/banner-shop-chirofoam'
 import { Container, Row, Col, Media } from 'reactstrap'
 import SEO from '~/components/seo'
-import run from '../assets/img/only-man.webp'
+import run from '../assets/img/only-man.png'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 export default props => {
