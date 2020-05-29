@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Row, Col } from 'reactstrap'
 import Stickytest from '../components/Stickytest'
-import payment from '../assets/img/payment.webp'
-import bbb from '../assets/img/bbb.webp'
+import payment from '../assets/img/payment.png'
+import bbb from '../assets/img/bbb.png'
 
 const Footer = props => {
   const disabletest =

@@ -12,7 +12,7 @@ import ReactHtmlParser from 'react-html-parser'
 import {useStaticQuery, Link, graphql } from 'gatsby'
 import '~/assets/css/bootstrap.min.css'
 import '~/assets/css/animate.css'
-import run from '~/assets/img/only-man.webp'
+import run from '~/assets/img/only-man.png'
 
 const items = [
   {
@@ -56,6 +56,10 @@ const HomePageSlider2 = props => {
                       fluid {
                         src
                       }
+                      resolutions {
+                        height
+                        width
+                      }
                     }
                   }
                 }
@@ -65,6 +69,10 @@ const HomePageSlider2 = props => {
                     childImageSharp {
                       fluid {
                         src
+                      }
+                      resolutions {
+                        height
+                        width
                       }
                     }
                   }
@@ -76,6 +84,10 @@ const HomePageSlider2 = props => {
                       fluid {
                         src
                       }
+                      resolutions {
+                        height
+                        width
+                      }
                     }
                   }
                 }
@@ -85,6 +97,10 @@ const HomePageSlider2 = props => {
                     childImageSharp {
                       fluid {
                         src
+                      }
+                      resolutions {
+                        height
+                        width
                       }
                     }
                   }
@@ -96,6 +112,10 @@ const HomePageSlider2 = props => {
                       fluid {
                         src
                       }
+                      resolutions {
+                        height
+                        width
+                      }
                     }
                   }
                 }
@@ -106,6 +126,10 @@ const HomePageSlider2 = props => {
                       fluid {
                         src
                       }
+                      resolutions {
+                        height
+                        width
+                      }
                     }
                   }
                 }
@@ -115,6 +139,10 @@ const HomePageSlider2 = props => {
                     childImageSharp {
                       fluid {
                         src
+                      }
+                      resolutions {
+                        height
+                        width
                       }
                     }
                   }
@@ -300,7 +328,11 @@ const HomePageSlider2 = props => {
               <Col sm="6">
                 <Media className="px-2 px-sm-2 px-md-3 px-lg-5 px-xl-5 pb-3 pb-sm-5">
                   <Media left={true} middle={true}>
-                    <img src={wordpressPage.acf.slider2_block_1_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_1_image.alt_text} width="85px" />
+                    <img src={wordpressPage.acf.slider2_block_1_image.localFile.childImageSharp.fluid.src}
+                     alt={wordpressPage.acf.slider2_block_1_image.alt_text}
+                      width={wordpressPage.acf.slider2_block_1_image.localFile.childImageSharp.resolutions.width} 
+                      height={wordpressPage.acf.slider2_block_1_image.localFile.childImageSharp.resolutions.height}
+                      className="img-fluid" />
                   </Media>
                   <Media body={true} middle={true} className="pl-3 text-white">
                     <h4
@@ -322,7 +354,11 @@ const HomePageSlider2 = props => {
               <Col sm="6">
                 <Media className="px-2 px-sm-2 px-md-3 px-lg-5 px-xl-5 pb-3 pb-sm-5">
                   <Media left={true} middle={true}>
-                    <img src={wordpressPage.acf.slider2_block_2_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_2_image.alt_text} width="85px" />
+                    <img src={wordpressPage.acf.slider2_block_2_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_2_image.alt_text}
+                     width={wordpressPage.acf.slider2_block_2_image.localFile.childImageSharp.resolutions.width} 
+                      height={wordpressPage.acf.slider2_block_2_image.localFile.childImageSharp.resolutions.height}
+                      className="img-fluid"
+                     />
                   </Media>
                   <Media body={true} middle={true} className="pl-3 text-white">
                     <h4
@@ -344,7 +380,11 @@ const HomePageSlider2 = props => {
               <Col sm="6">
                 <Media className="px-2 px-sm-2 px-md-3 px-lg-5 px-xl-5 pb-3 pb-sm-5">
                   <Media left={true} middle={true}>
-                    <img src={wordpressPage.acf.slider2_block_3_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_3_image.alt_text} width="85px" />
+                    <img src={wordpressPage.acf.slider2_block_3_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_3_image.alt_text}
+                     width={wordpressPage.acf.slider2_block_3_image.localFile.childImageSharp.resolutions.width} 
+                      height={wordpressPage.acf.slider2_block_3_image.localFile.childImageSharp.resolutions.height}
+                      className="img-fluid" 
+                      />
                   </Media>
                   <Media body={true} middle={true} className="pl-3 text-white">
                     <h4
@@ -366,7 +406,11 @@ const HomePageSlider2 = props => {
               <Col sm="6">
                 <Media className="px-2 px-sm-2 px-md-3 px-lg-5 px-xl-5 pb-3 pb-sm-5">
                   <Media left={true} middle={true}>
-                    <img src={wordpressPage.acf.slider2_block_4_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_4_image.alt_text} width="85px" />
+                    <img src={wordpressPage.acf.slider2_block_4_image.localFile.childImageSharp.fluid.src} alt={wordpressPage.acf.slider2_block_4_image.alt_text}
+                     width={wordpressPage.acf.slider2_block_4_image.localFile.childImageSharp.resolutions.width} 
+                      height={wordpressPage.acf.slider2_block_4_image.localFile.childImageSharp.resolutions.height}
+                      className="img-fluid" 
+                      />
                   </Media>
                   <Media body={true} middle={true} className="pl-3 text-white">
                     <h4
