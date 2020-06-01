@@ -122,6 +122,7 @@ const Design = props => {
             overview_content
             technical_specification_title
             technical_specification_content
+            videoplayer_link
           }
 
         }
@@ -289,7 +290,7 @@ const Design = props => {
                   preload="auto"
                   loop="loop"
                   muted="muted"
-                  src="//chirofoam.com/wp-content/uploads/2016/08/Chiro%20Video%202%20HD%20recut%20final_2.mp4"
+                  src={wordpressPage.acf.videoplayer_link}
                   type="video/mp4"
                 >
                   <track kind="captions" default={true} srcLang="en" />
