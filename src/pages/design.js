@@ -122,7 +122,6 @@ const Design = props => {
             overview_content
             technical_specification_title
             technical_specification_content
-            videoplayer_link
           }
 
         }
@@ -290,7 +289,7 @@ const Design = props => {
                   preload="auto"
                   loop="loop"
                   muted="muted"
-                  src={wordpressPage.acf.videoplayer_link}
+                  src="http://test.nationalmattress.ca/chirofoam/wp-content/uploads/2020/05/Chiro-Video-2-HD-recut-final_2.mp4"
                   type="video/mp4"
                 >
                   <track kind="captions" default={true} srcLang="en" />
