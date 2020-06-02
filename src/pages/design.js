@@ -14,6 +14,7 @@ import conni1 from '../assets/img/conni1.jpg'
 import poster from '../assets/img/poster.jpg'
 import clip1 from '../assets/img/bed1.jpg'
 import clip2 from '../assets/img/clip.jpg'
+import chirofoam from '../assets/img/chirofoam.mp4'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const Design = props => {
@@ -285,11 +286,11 @@ const Design = props => {
                   poster={poster}
                   width="100%"
                   controls="controls"
-                  autoPlay={true}
+                  autoPlay="true"
                   preload="auto"
                   loop="loop"
                   muted="muted"
-                  src="http://test.nationalmattress.ca/chirofoam/wp-content/uploads/2020/05/Chiro-Video-2-HD-recut-final_2.mp4"
+                  src={chirofoam}
                   type="video/mp4"
                 >
                   <track kind="captions" default={true} srcLang="en" />
