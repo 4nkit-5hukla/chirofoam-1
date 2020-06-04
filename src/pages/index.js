@@ -103,7 +103,6 @@ export default props => {
   return (
     <>
       <SEO title="Home" image={Logo} imageWidth={200} imageHeight={44} />
-    <meta name="google-site-verification" content="FUhxt9Y0-ZFhIhgWbFxCboN0vlVsUdtuDs956X-bzMM" />
       <main id="homepage">
         <Banner />
         <section className="py-4 py-sm-4 py-lg-4 py-xl-4 active-style">
