@@ -516,6 +516,4 @@ const HomePageSlider2 = props => {
     </Carousel>
   )
 }
-
-
 export default HomePageSlider2
