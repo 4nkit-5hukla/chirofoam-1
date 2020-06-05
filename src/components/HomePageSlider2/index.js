@@ -194,9 +194,9 @@ const HomePageSlider2 = props => {
                   {wordpressPage.acf.slider_1_text_1}
                 </p>
                 <p className="cta mt-3 mt-sm-0 mt-lg-0 mt-xl-0 pt-sm-0 pt-lg-0 pt-xl-0 mb-sm-2">
-                  <button className="btn-cta bg-transparent outline-none text-white erbaum-bold space-1 border-0">
-                    CALL TO ACTION
-                  </button>
+                  <Link to={wordpressPage.acf.slider_1_button_1} className="btn-cta bg-transparent outline-none text-white erbaum-bold space-1 border-0 text-decoration-none">
+                    MORE INFO
+                  </Link>
                 </p>
               </div>
 
@@ -321,9 +321,7 @@ const HomePageSlider2 = props => {
                   width: '100%',
                 }}
               >
-                <h4 className="lead-text-font text-white erbaum-bold display-5 position-relative text-center pb-5">
-                  ONDIMENTUM QUISBIBENDUM SED
-                </h4>
+                
               </div>
               <Col sm="6">
                 <Media className="px-2 px-sm-2 px-md-3 px-lg-5 px-xl-5 pb-3 pb-sm-5">
